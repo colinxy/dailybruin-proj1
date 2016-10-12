@@ -26,23 +26,35 @@ html, body {
   color: white;
   text-align: center;
   display: inline;
+  text-decoration: none;
 }
 
 .title {
   margin-bottom: 0px;
 }
 
-.cover a {
-  text-decoration: none;
+.menu {
+  margin-bottom: 20px;
+}
+
+.menu a {
   color: white;
 }
 
-.cover a:hover {
+.menu a:hover {
   color: rgb(212, 212, 212);
 }
 
 .signup {
+  padding: 10px 20px;
   border: 1px solid white;
+  color: white;
+}
+
+.signup:hover {
+  background-color: white;
+  text-decoration: none;
+  color: black;
 }
 
 /*
