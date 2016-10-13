@@ -22,7 +22,7 @@ html, body {
 
 .cover {
   padding: 0 20px;
-  font-family: "Source Code Pro";
+  font-family: sans-serif;
   color: white;
   text-align: center;
   display: inline;
@@ -31,24 +31,37 @@ html, body {
 
 .title {
   margin-bottom: 0px;
+  font-size: 40px;
+}
+
+.menu-wrapper {
+  padding: 10px;
 }
 
 .menu {
   margin-bottom: 20px;
+  font-size: 15px
 }
 
 .menu a {
   color: white;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .menu a:hover {
   color: rgb(212, 212, 212);
 }
 
+.signup-wrapper {
+  padding: 5px;
+}
+
 .signup {
   padding: 10px 20px;
   border: 1px solid white;
   color: white;
+  font-size: 20px;
 }
 
 .signup:hover {
