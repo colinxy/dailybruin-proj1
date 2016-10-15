@@ -1,8 +1,11 @@
-html, body {
+html, body, .container {
+  height: 100%;
+}
+
+body {
   /* Background Image */
   background: url('background.jpg') no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
 }
 
 .site-wrapper {
@@ -16,26 +19,15 @@ html, body {
   vertical-align: top;
 }
 
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 20px;
-  font-family: sans-serif;
-  color: white;
-  text-align: center;
-  display: inline;
-  text-decoration: none;
-}
-
 .title {
   margin-bottom: 0px;
   font-size: 40px;
+  color: white;
 }
 
 .menu-wrapper {
-  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0;
 }
 
 .menu {
@@ -54,10 +46,6 @@ html, body {
   color: rgb(212, 212, 212);
 }
 
-.signup-wrapper {
-  padding: 5px;
-}
-
 .signup {
   padding: 10px 20px;
   border: 1px solid white;
@@ -72,9 +60,26 @@ html, body {
 }
 
 .text-wrapper {
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   color: rgba(255, 255, 255, 1);
 }
+
+.container {
+    display: table;
+    vertical-align: middle;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.img-circle {
+  height: 200px;
+  width: 200px;
+}
+
+
 
 /*
  * Affix and center
