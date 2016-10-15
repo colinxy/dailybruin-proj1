@@ -45,6 +45,7 @@ html, body {
 
 .menu a {
   color: white;
+  text-decoration: none;
   padding-left: 8px;
   padding-right: 8px;
 }
