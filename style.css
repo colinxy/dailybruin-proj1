@@ -48,6 +48,10 @@ body {
   color: black;
 }
 
+/*
+ * about.html, contact.html
+ */
+
 .wrapper {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -55,13 +59,17 @@ body {
 }
 
 .container {
-    display: table;
-    vertical-align: middle;
+  display: table;
+  vertical-align: middle;
 }
 
 .vertical-center-row {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.text-wrapper a {
+  color: burlywood;
 }
 
 .img-circle {
